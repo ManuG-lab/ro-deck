@@ -1,0 +1,15 @@
+import { AlertTriangle } from "lucide-react";
+
+export default function AlertCard({ alert }) {
+  return (
+    <div className="p-6 mb-4 border border-primary rounded-xl bg-dark shadow-lg shadow-primary/20">
+      <div className="flex items-center space-x-4">
+        <AlertTriangle className="text-primary" size={32} />
+        <div>
+          <p className="font-semibold">{alert.message}</p>
+          <p className="text-sm text-gray-400">{alert.timestamp}</p>
+        </div>
+      </div>
+    </div>
+  );
+}
