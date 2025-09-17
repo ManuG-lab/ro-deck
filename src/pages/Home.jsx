@@ -12,11 +12,11 @@ export default function Home() {
     >
       <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
       <div className="relative z-10 p-6">
-        <Shield size={64} className="mx-auto mb-6 text-orange-500" />
-        <h1 className="text-5xl font-bold mb-4">
+        <Shield size={64} className="mx-auto mb-6 text-orange-500 h-12 w-12 sm:h-16 sm:w-16" />
+        <h1 className="text-3xl sm:text-5xl font-bold mb-4">
           Ethereum Fraud <span className="text-orange-500">Detection</span>
         </h1>
-        <p className="text-lg text-gray-300 max-w-xl mb-8">
+        <p className="text-base sm:text-lg text-gray-300 max-w-xl mb-8">
           Protecting traders and investors with AI-driven fraud detection, blockchain forensics,
           and real-time monitoring.
         </p>

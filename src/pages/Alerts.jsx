@@ -9,7 +9,7 @@ export default function Alerts() {
 
   return (
     <div className="space-y-6">
-      <h1 className="text-3xl font-bold text-primary">Alerts</h1>
+      <h1 className="text-3xl font-bold text-orange-500">Alerts</h1>
       {alerts.map((a, i) => (
         <AlertCard key={i} alert={a} />
       ))}

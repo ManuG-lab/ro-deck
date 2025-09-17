@@ -10,7 +10,7 @@ export default function About() {
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div>
-          <img src="https://images.pexels.com/photos/6771740/pexels-photo-6771740.jpeg" alt="Our Mission" className="rounded-2xl shadow-lg shadow-orange-500/20" />
+          <img src="https://images.pexels.com/photos/6771740/pexels-photo-6771740.jpeg" alt="Our Mission" className="rounded-2xl shadow-lg shadow-orange-500/20 w-full" />
         </div>
         <div>
           <h2 className="text-3xl font-bold text-orange-500 mb-4">Our Mission</h2>
@@ -22,7 +22,7 @@ export default function About() {
 
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="md:order-2">
-          <img src="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg" alt="Our Vision" className="rounded-2xl shadow-lg shadow-orange-500/20" />
+          <img src="https://images.pexels.com/photos/843700/pexels-photo-843700.jpeg" alt="Our Vision" className="rounded-2xl shadow-lg shadow-orange-500/20 w-full" />
         </div>
         <div className="md:order-1">
           <h2 className="text-3xl font-bold text-orange-500 mb-4">Our Vision</h2>
