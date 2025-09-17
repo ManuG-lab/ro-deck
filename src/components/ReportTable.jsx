@@ -1,8 +1,8 @@
 export default function ReportTable({ reports }) {
   return (
-    <div className="overflow-x-auto border border-primary rounded-2xl bg-dark shadow-lg shadow-primary/20">
+    <div className="overflow-x-auto border border-orange-500 rounded-2xl bg-black shadow-lg shadow-orange-500/20">
       <table className="w-full text-left">
-        <thead className="bg-primary text-black">
+        <thead className="bg-orange-500 text-black">
           <tr>
             <th className="p-4">Address</th>
             <th className="p-4">Risk Score</th>
@@ -14,7 +14,7 @@ export default function ReportTable({ reports }) {
           {reports.map((r, i) => (
             <tr
               key={i}
-              className="border-b border-primary/30 hover:bg-primary/10 transition"
+              className="border-b border-orange-500/30 hover:bg-orange-500/10 transition"
             >
               <td className="p-4 font-mono">{r.address}</td>
               <td className="p-4">{r.risk}%</td>
